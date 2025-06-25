@@ -25,7 +25,7 @@ app.use("*", prettyJSON())
 app.use(
   "*",
   cors({
-    origin: ["http://localhost:3000", "https://your-frontend-url.netlify.app"],
+    origin: ["http://localhost:3000", "https://ai-task-manager-hazel.vercel.app/"],
     credentials: true,
     allowMethods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowHeaders: ["Content-Type", "Authorization"],
